@@ -1,0 +1,51 @@
+:root {
+	--color-primary: #25a5f0;
+	--color-secondary: #25a5f0;
+	--color-tertiary: #25a5f0;
+	--color-gradient-start: #25a5f0;
+	--color-gradient-stop: #25a5f0;
+	--color-gradient-start-secondary: #25a5f0;
+	--color-gradient-stop-secondary: #25a5f0;
+	--color-gradient-start-tertiary: #25a5f0;
+	--color-gradient-stop-tertiary: #25a5f0;
+}
+
+.logo-default {
+    height: 50px;
+}
+.logo-sticky {
+    height: 50px;
+}
+
+.socials {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+.socials a {
+    margin: 3px;
+}
+
+.play {
+    height: 90vh;
+    max-width: 110%;
+    position: relative;
+    right: 70px;
+}
+
+.liquid-progressbar-percentage {
+    display: none;
+}
+.pass {
+    height: 90vh;
+}
+
+.booksbox {
+    background-color: rgba(1, 1, 1, .6);
+}
+
+@media (max-width: 1199px){
+    .socials {
+        display: none;
+    }
+}
